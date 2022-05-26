@@ -1,9 +1,9 @@
 puts ("Это первое задание по лабараторной работе №2")
 def greeting(name, surName, age)
   if age<18
-     puts "Привет, #{name} #{surName}. Тебе меньше 18 лет, но начать учиться программировать никогда не рано."
+    return "Привет, #{name} #{surName}. Тебе меньше 18 лет, но начать учиться программировать никогда не рано."
   else
-     puts "Привет, #{name} #{surName}. Самое время заняться делом."
+    return "Привет, #{name} #{surName}. Самое время заняться делом."
   end
 end
 
@@ -20,12 +20,12 @@ def foobar(a, b)
   sum = a + b
   if a == 20 or b == 20
     if a == 20
-        puts ("Второе число: " + b.to_s)
+        return ("Второе число: " + b.to_s)
     else
-        puts ("Второе число: " + a.to_s)
+        return ("Второе число: " + a.to_s)
     end
   else
-    puts ("Сумма чисел: " + sum.to_s)
+    return ("Сумма чисел: " + sum.to_s)
   end
 end
 
